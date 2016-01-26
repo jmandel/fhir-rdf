@@ -1,3 +1,22 @@
 /.emacs.desktop
 /.emacs.desktop.lock
-/generic/tests/*-generated.ttl
+/examples
+fhir-spec.zip
+
+# python specific ignores
+*.py[co]
+*.sw[op]
+*~
+.coverage
+.project
+.pydevproject
+.settings
+MANIFEST
+build
+cover
+dist
+docs/_build
+*.egg-info
+
+# pycharm ignores
+.idea
